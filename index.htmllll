@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Fozle Rabbi, portfolio, Rabbi, full stack dev, personal portfolio scriptysphere, portfolio design, portfolio website, personal portfolio" />
-    <meta name="description" content="Welcome to Rabbi's Portfolio. Full-Stack Web Developer and Android App Developer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Al Imran Pushon, portfolio, robotics engineer, 3D printing, automation, IoT, embedded systems, hardware engineer, Dhaka, Bangladesh">
+  <meta name="description" content="Welcome to Imran Pushon's Portfolio — Robotics & Embedded Systems Engineer specialising in IoT, 3D Printing, and Automation.">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Font Awesome -->
@@ -16,34 +17,31 @@
     <meta name="google-site-verification" content="E8mLOdY5uxKonPEFPAl5gxBX2lmZNh7vUCQ4If-8Z9c" />
 
 
-
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Fozle Rabbi",
-  "alternateName": "Rabbi",
-  "jobTitle": "Full-Stack Developer | Runner | Volunteer",
-  "url": "https://fozlerabbi.dev",
-  "image": "https://fozlerabbi.dev/assets/images/Profile2.jpg",
-  "sameAs": [
-    "https://www.facebook.com/fozlerabbi.dev",
-    "https://www.linkedin.com/in/fozlerabbit",
-    "https://github.com/fozlerabbit",
-    "https://x.com/rabbi_foyez"
-  ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "ScriptySphere",
-    "url": "https://scriptysphere.org"
-  },
-  "alumniOf": {
-    "@type": "CollegeOrUniversity",
-    "name": "Nasirabad College Mymensingh"
-  },
-  "description": "Fozle Rabbi is a Full-Stack Developer from Bangladesh with expertise in MERN Stack. He is a passionate marathon runner and an active volunteer in social initiatives."
-}
-</script>
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Al Imran Pushon",
+    "jobTitle": "Robotics & Embedded Systems Engineer",
+    "url": "https://imranpushon.dev",
+    "image": "https://imranpushon.dev/assets/images/profile.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/imranpushon",
+      "https://github.com/imranpushon"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Polynomial Labs",
+      "url": "https://polynomiallabs.com"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "IUBAT, Dhaka"
+    },
+    "description": "Al Imran Pushon is a robotics engineer passionate about automation, IoT, and 3D printing systems integration."
+  }
+  </script>
 
 
 
@@ -58,7 +56,7 @@
 
 <!-- navbar starts -->
 <header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Rabbi</a>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i>Imran</a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
@@ -83,19 +81,17 @@
     <div class="content">
         <br>
         
-    <h2>Hi There,<br/> I'm Fozle <span>Rabbi</span></h2>
+    <h2>Hi There,<br/> I'm Al Imran<span>Pushon</span></h2>
     <p>i am into <span class="typing-text"></span></p>
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
     <div class="socials">
         <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/fozlerabbit/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-          <li><a class="github" aria-label="GitHub" href="https://facebook.com/fozlerabbi.dev" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter" href="https://wa.me/8801600374396" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Telegram" href="https://t.me/fozlerabbi" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="facebook" aria-label="Facebook" href="https://www.facebook.com/imranpushon"><i class="fab fa-facebook" target="_blank"></i></a></li>
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/imranpushon" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://facebook.com/imranpushon" target="_blank"><i class="fab fa-github"></i></a></li>
           <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/fozlerabbit"><i class="fab fa-instagram" target="_blank"></i></a></li>
-          <li><a class="dev" aria-label="Dev" href="https://dev.to/fozlerabbi" target="_blank"><i class="fab fa-dev"></i></a></li>
         </ul>
       </div>
     </div>
@@ -113,52 +109,33 @@
     <div class="row">
 
     <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/Profile2.jpg" alt="Fozle Rabbi">
+        <img draggable="false" class="tilt" src="./assets/images/Profile2.jpg" alt="Imran Pushon">
     </div>
     <div class="content">
-        <h3>I'm Rabbi</h3>
-        <span class="tag">Full Stack Developer | Volunteer | Runner</span>
+        <h3>I'm Imran</h3>
+        <span class="tag">Robotics Engineer | Embedded Systems Developer | 3D Printing Specialist</span>
         
-<p>I'm a <b>Full-Stack Developer</b> from <b>Dhaka, Bangladesh</b>, passionate about building dynamic web applications using the <b>MERN Stack</b>. As the <b>Member of ScriptySphere</b>, I’m always exploring new technologies and pushing my limits in development.</p>  
+ <p>Innovative professional specialising in hardware–software integration, robotics systems, and 3D printing technologies. Experienced in system automation, embedded development with Arduino, ESP32, and Raspberry Pi, and building automation systems for industrial and educational projects. Passionate about optimising performance through creativity and technical precision.</p>
         
-<h1>🏃‍♂️ <b>Marathon Runner</b></h1>  
-<p>With <b>50+ medals</b> in marathons, I love pushing my physical and mental endurance. Running is my way of challenging limits and staying disciplined.</p>  
-
-<h1>🤝 <b>Volunteer & Changemaker</b></h1>  
-<p>Actively working with <b>Volunteer for Bangladesh</b> and <b>Rapid Response BD</b> to create a positive impact in society. I believe in giving back and making a difference.</p>  
-
-<h1>💡 <b>Tech Enthusiast & Innovator</b></h1>  
-<p>Participated in competitions like <b>NASA Space Apps Challenge</b> and <b>International Robo Tech Olympiad</b>. I love solving complex problems and working on innovative projects.</p>  
-
-<h1>🎓 <b>Continuous Learner</b></h1>  
-<p>Completed <b>100+ courses</b> from platforms like <b>WHO</b> and <b>Bangladesh Online Journalism School</b>. Always upgrading my skills and knowledge.</p>  
-
-<h1>♟️ <b>Chess Player & Strategic Thinker</b></h1>  
-<p>Chess isn’t just a game for me—it’s a way to sharpen my mind and think ahead in every aspect of life.</p>  
-
-<h1>⚡ <b>Fitness Enthusiast</b></h1>  
-<p>Dedicated to working out, building strength, and maintaining a <b>V-shape physique</b>. Fitness fuels my energy and keeps me at my best.</p>  
-
-<p><b>Always learning, always building, always growing! Let’s connect and create something amazing. 🚀</b></p>  
-</ul>  
+        <h1>🏆 <b>Awards & Achievements</b></h1>
+        <p>Top 5 Finalist – 45th National Science Fair (2024) • Bronze Medal – World Robot Olympiad (2024) • Champion – IUBAT Technocrats (2024) • Bronze Medal – ISIF Bangladesh (2025)</p> 
 
 
 
-        
-        
+    
         <div class="box-container">
             <div class="box">
               <p><span> age: </span> 18+</p>
-              <p><span> phone : </span> +8801884541714</p>
+              <p><span> phone : </span> +8801862100733</p>
             </div>
             <div class="box">
-              <p><span> email : </span> infiniterabbiex@gmail.com</p>
-              <p><span> place : </span> Dhaka, Bangladesh</p>
+              <p><span> email : </span> imranpushon@gmail.com</p>
+              <p><span> place : </span> Tangail Sadar, Dhaka</p>
             </div>
         </div>
         
         <div class="resumebtn">
-            <a href="https://fozlerabbi.dev/cv" target="_blank" class="btn"><span>Resume</span>
+            <a href="https://imranpushon.com/cv.pdf" target="_blank" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
@@ -203,9 +180,9 @@
         <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
         </div>
         <div class="content">
-        <h3>HSC | Science</h3>
-        <p> Nasirabad College Mymensingh | NCM</p>
-        <h4>2022-2024 | Completed</h4>
+          <h3>HSC | Science</h3>
+          <p>Major General Mahmudul Hasan College, Tangail</p>
+          <h4>GPA 4.50/5.00 | 2021 - 2023</h4>
         </div>
     </div>
 
@@ -214,9 +191,9 @@
       <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
       </div>
       <div class="content">
-      <h3>SSC | Science</h3>
-      <p>Ahammadabad High School</p>
-      <h4>2017-2022 | Completed</h4>
+          <h3>SSC | Science</h3>
+          <p>Mukul Niketan High School, Mymensingh</p>
+          <h4>GPA 5.00/5.00 | 2017 - 2021</h4>
       </div>
     </div>
 
@@ -242,7 +219,7 @@
           <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
           <div class="btns">
             <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/foyezrabbi/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="https://github.com/imranpushon" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
@@ -251,7 +228,7 @@
 </div>
 
 <div class="viewall">
-  <a href="www.fozlerabbi.dev/projects" class="btn"><span>View All</span>
+  <a href="www.imranpushon.com/projects" class="btn"><span>View All</span>
     <i class="fas fa-arrow-right"></i>
 </a>
 </div>
@@ -268,61 +245,56 @@
 
     <div class="container right">
       <div class="content">
-        <div class="tag">
-          <h2>ScriptySphere</h2>
-        </div>
-        <div class="desc">
-            <h3>Full Stack Developer</h3>
-            <p>Oct 2019 - present</p>
-        </div>
+          <div class="tag"><h2>Polynomial Labs</h2></div>
+          <div class="desc">
+            <h3>Hardware Engineer</h3>
+            <p>Jan 2023 – Present</p>
+            <p>Led system integration, automation, and maintenance for 3D printers and servers. Improved uptime and streamlined prototyping workflows.</p>
+          </div>
       </div>
     </div>
 
     <div class="container left">
       <div class="content">
-        <div class="tag">
-          <h2>Volunteer for Bangladesh (VBD)</h2>
-        </div>
-        <div class="desc">
-            <h3>General Member | HRO Member</h3>
-            <p>2023 - Present</p>
-        </div>
+          <div class="tag"><h2>3D Printing BD</h2></div>
+          <div class="desc">
+            <h3>3D Printing Operations Engineer</h3>
+            <p>Oct 2024 – Present</p>
+            <p>Managed and optimised multiple 3D printers, achieving under 1% print failure rate and enhanced production efficiency.</p>
+          </div>
       </div>
     </div>
 
     <div class="container right">
       <div class="content">
-        <div class="tag">
-          <h2>Bangladesh Scout</h2>
-        </div>
-        <div class="desc">
-            <h3>Rover | ARM</h3>
-            <p>Jan 2017 - Present</p>
-        </div>
+          <div class="tag"><h2>FAUNA InfoTech Ltd</h2></div>
+          <div class="desc">
+            <h3>Robotics Consultant</h3>
+            <p>Apr 2025 – Present</p>
+            <p>Developed robotics projects integrating hardware, software, and automation systems. Created hands-on robotics curricula.</p>
+          </div>
       </div>
     </div>
 
     <div class="container left">
       <div class="content">
-        <div class="tag">
-          <h2>Swapna Bunon Foundation Bangladesh</h2>
-        </div>
-        <div class="desc">
-            <h3>Teacher | Internship</h3>
-            <p>April 2023 - Present</p>
-        </div>
+          <div class="tag"><h2>Dreams of Bangladesh</h2></div>
+          <div class="desc">
+            <h3>3D Designer</h3>
+            <p>Apr 2025 – Sept 2025</p>
+            <p>Designed 3D models and mechanical structures for the WISE Rover projects for both junior and senior teams.</p>
+          </div>
       </div>
     </div>
 
     <div class="container right">
       <div class="content">
-        <div class="tag">
-          <h2>Prothom Alo Bondhushava</h2>
-        </div>
-        <div class="desc">
-            <h3>Notun Bondhu</h3>
-            <p>April 2023 - Present</p>
-        </div>
+          <div class="tag"><h2>Foot Balance Technology BD</h2></div>
+          <div class="desc">
+            <h3>3D Consultant</h3>
+            <p>Sept 2025 – Present</p>
+            <p>Modernised 3D printing systems with Klipper-based printers. Enhanced precision, speed, and automation in industrial processes.</p>
+          </div>
       </div>
     </div>
 
@@ -397,7 +369,7 @@
   <div class="box-container">
 
       <div class="box">
-          <h3>Rabbi's Portfolio</h3>
+          <h3>Imran's Portfolio</h3>
           <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
       </div>
 
@@ -418,13 +390,10 @@
           <p> <i class="fas fa-map-marked-alt"></i>Dhaka, Bangladesh </p>
           <div class="share">
 
-            <a href="https://www.linkedin.com/in/fozlerabbit" class="fab fa-linkedin" target="_blank"></a>
-            <a href="https://github.com/fozlerabbit" class="fab fa-github" target="_blank"></a>
-            <a href="mailto:infiniterabbiex@gmail.com" class="fas fa-envelope" target="_blank"></a>
-            <a href="https://fozlerabbi.dev/cv" class="fab fa-twitter" target="_blank"></a>
-            <a href="https://t.me/fozlerabbi" class="fab fa-telegram-plane" target="_blank"></a>
-            <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/fozlerabbit"><i class="fab fa-instagram" target="_blank"></i></a>
-            <a class="dev" aria-label="Dev" href="https://dev.to/fozlerabbi" target="_blank"><i class="fab fa-dev"></i></a>
+            <a href="https://www.linkedin.com/in/imranpushon" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/imranpushon" class="fab fa-github" target="_blank"></a>
+            <a href="mailto:imranpushon@gmail.com" class="fas fa-envelope" target="_blank"></a>
+            <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/imranpushon"><i class="fab fa-instagram" target="_blank"></i></a>
           </div>
       </div>
   </div>
