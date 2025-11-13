@@ -1,561 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="Imran Pushon, Al Imran, portfolio, hardware-software, robotics, 3D printing, embedded systems, ImranPushon.dev" />
-  <meta name="description" content="Al Imran (Imran Pushon) — Robotics Engineer, Embedded Systems Developer and 3D Printing Specialist. Hardware-software integration, automation and robotics." />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link id="favicon" rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png" />
-  <title>Imran Pushon | Robotics · Embedded Systems · 3D Printing</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Al Imran Pushon, portfolio, robotics engineer, 3D printing, automation, IoT, embedded systems, hardware engineer, Dhaka, Bangladesh">
+  <meta name="description" content="Welcome to Imran Pushon's Portfolio — Robotics & Embedded Systems Engineer specialising in IoT, 3D Printing, and Automation.">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Fozle Rabbi</title>
+    <meta name="google-site-verification" content="E8mLOdY5uxKonPEFPAl5gxBX2lmZNh7vUCQ4If-8Z9c" />
+
+
+  <!-- Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Al Imran",
-    "alternateName": "Imran Pushon",
-    "jobTitle": "Hardware-Software Engineer | Robotics | 3D Printing Specialist",
+    "name": "Al Imran Pushon",
+    "jobTitle": "Robotics & Embedded Systems Engineer",
     "url": "https://imranpushon.dev",
     "image": "https://imranpushon.dev/assets/images/profile.jpg",
     "sameAs": [
       "https://www.linkedin.com/in/imranpushon",
-      "https://github.com/imranpushon",
-      "https://t.me/imranpushon"
+      "https://github.com/imranpushon"
     ],
     "worksFor": {
       "@type": "Organization",
-      "name": "Polynomial Labs"
+      "name": "Polynomial Labs",
+      "url": "https://polynomiallabs.com"
     },
     "alumniOf": {
       "@type": "CollegeOrUniversity",
       "name": "IUBAT, Dhaka"
     },
-    "description": "Al Imran (Imran Pushon) specialises in hardware-software integration, embedded systems, robotics and 3D printing. Experienced in Arduino, ESP32, Raspberry Pi and automation systems."
+    "description": "Al Imran Pushon is a robotics engineer passionate about automation, IoT, and 3D printing systems integration."
   }
   </script>
 
+
+
+    
 </head>
 <body oncontextmenu="return false">
 
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
 <!-- navbar starts -->
 <header>
-  <a href="/" class="logo"><i class="fab fa-node-js"></i> Imran</a>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i>Imran</a>
 
-  <div id="menu" class="fas fa-bars"></div>
-  <nav class="navbar">
-    <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 </header>
 <!-- navbar ends -->
 
+
 <!-- hero section starts -->
 <section class="home" id="home">
-  <div id="particles-js"></div>
+    <div id="particles-js"></div>
 
-  <div class="content">
-    <br/>
-    <h2>Hi There,<br/> I'm Al <span>Imran</span></h2>
-    <p>I design and build <span class="typing-text"></span></p>
-
+    <div class="content">
+        <br>
+        
+    <h2>Hi There,<br/> I'm Al Imran<span>Pushon</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
-
     <div class="socials">
-      <ul class="social-icons">
-        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/imranpushon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li><a class="github" aria-label="GitHub" href="https://github.com/imranpushon" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a class="twitter" aria-label="WhatsApp" href="https://wa.me/8801862100733" target="_blank"><i class="fab fa-twitter"></i></a></li>
-        <li><a class="telegram" aria-label="Telegram" href="https://t.me/imranpushon" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-        <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/imranpushon" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a class="dev" aria-label="Dev" href="https://dev.to/imranpushon" target="_blank"><i class="fab fa-dev"></i></a></li>
-      </ul>
+        <ul class="social-icons">
+          <li><a class="facebook" aria-label="Facebook" href="https://www.facebook.com/imranpushon"><i class="fab fa-facebook" target="_blank"></i></a></li>
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/imranpushon" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://facebook.com/imranpushon" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/fozlerabbit"><i class="fab fa-instagram" target="_blank"></i></a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-
-  <div class="image">
-    <img draggable="false" class="tilt" src="./assets/images/profile.jpg" alt="Al Imran">
-  </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/Profile2.jpg" alt="">
+</div>
 </section>
 <!-- hero section ends -->
 
+
 <!-- about section starts -->
 <section class="about" id="about">
-  <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
 
-  <div class="row">
     <div class="image">
-      <img draggable="false" class="tilt" src="./assets/images/profile.jpg" alt="Al Imran">
+        <img draggable="false" class="tilt" src="./assets/images/Profile2.jpg" alt="Imran Pushon">
     </div>
-
     <div class="content">
-      <h3>I'm Imran Pushon</h3>
-      <span class="tag">Hardware-Software Engineer | Robotics Consultant | 3D Printing Specialist</span>
+        <h3>I'm Imran</h3>
+        <span class="tag">Robotics Engineer | Embedded Systems Developer | 3D Printing Specialist</span>
+        
+ <p>Innovative professional specialising in hardware–software integration, robotics systems, and 3D printing technologies. Experienced in system automation, embedded development with Arduino, ESP32, and Raspberry Pi, and building automation systems for industrial and educational projects. Passionate about optimising performance through creativity and technical precision.</p>
+        
+        <h1>🏆 <b>Awards & Achievements</b></h1>
+        <p>Top 5 Finalist – 45th National Science Fair (2024) • Bronze Medal – World Robot Olympiad (2024) • Champion – IUBAT Technocrats (2024) • Bronze Medal – ISIF Bangladesh (2025)</p> 
 
-      <p><b>Summary</b><br>
-      Creative engineer specialising in hardware-software integration, robotics systems and 3D printing technologies. I develop automation and embedded solutions using Arduino, ESP32, Raspberry Pi and Jetson Nano, and optimise 3D printing workflows for high reliability and throughput.</p>
 
-      <h1>🛠️ <b>Technical Focus</b></h1>
-      <p>Hands-on experience in system automation, robotics programming and embedded development. Strong skillset in 3D modelling, printer operations and project delivery for both industrial and educational use cases.</p>
 
-      <h1>🏆 <b>Awards & Recognition</b></h1>
-      <p>Top 5 Finalist — 45th National Science Fair (2024). Bronze Medal — World Robot Olympiad (2024). Champion — IUBAT Technocrats (2024). Bronze Medal — ISIF Bangladesh (2025).</p>
-
-      <div class="box-container">
-        <div class="box">
-          <p><span> location: </span> Tangail Sadar, Dhaka</p>
-          <p><span> phone : </span> +8801862100733</p>
+    
+        <div class="box-container">
+            <div class="box">
+              <p><span> age: </span> 18+</p>
+              <p><span> phone : </span> +8801862100733</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> imranpushon@gmail.com</p>
+              <p><span> place : </span> Tangail Sadar, Dhaka</p>
+            </div>
         </div>
-        <div class="box">
-          <p><span> email : </span> imranpushon@gmail.com</p>
-          <p><span> website : </span> imranpushon.dev</p>
+        
+        <div class="resumebtn">
+            <a href="https://imranpushon.com/cv.pdf" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
         </div>
-      </div>
 
-      <div class="resumebtn">
-        <a href="https://imranpushon.dev/cv" target="_blank" class="btn"><span>Resume</span>
-          <i class="fas fa-chevron-right"></i>
-        </a>
-      </div>
     </div>
-  </div>
+    </div>
 </section>
 <!-- about section ends -->
 
 <!-- skills section starts -->
 <section class="skills" id="skills">
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
 
-  <div class="container">
-    <div class="row" id="skillsContainer">
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/arduino.png" alt="Arduino"/>
-          <span>Arduino & ESP32</span>
-        </div>
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <!-- <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> -->
+
       </div>
-
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/ios/48/000000/raspberry-pi.png" alt="Raspberry Pi"/>
-          <span>Raspberry Pi & Jetson Nano</span>
-        </div>
-      </div>
-
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/ios-filled/48/000000/3d-printer.png" alt="3D Printing"/>
-          <span>3D Printing & Klipper</span>
-        </div>
-      </div>
-
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/ios/48/000000/fusion-360.png" alt="Fusion 360"/>
-          <span>Fusion 360 & 3D Design</span>
-        </div>
-      </div>
-
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/ios/48/000000/iot.png" alt="IoT"/>
-          <span>IoT & Automation</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
+</div>
 </section>
 <!-- skills section ends -->
 
+
 <!-- education section starts -->
 <section class="education" id="education">
+
   <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-  <p class="qoute">Education is a lifetime journey of hands-on practice and iteration.</p>
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
 
-  <div class="box-container">
+    <div class="box-container">
 
     <div class="box">
-      <div class="image">
-        <img draggable="false" src="./assets/images/educat/university.jpg" alt="IUBAT">
-      </div>
-      <div class="content">
-        <h3>BSc in Computer Science & Engineering</h3>
-        <p>IUBAT, Dhaka</p>
-        <h4>Oct 2023 - Sept 2025 | CGPA 3.75/4.00</h4>
-      </div>
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>HSC | Science</h3>
+          <p>Major General Mahmudul Hasan College, Tangail</p>
+          <h4>GPA 4.50/5.00 | 2021 - 2023</h4>
+        </div>
     </div>
 
     <div class="box">
       <div class="image">
-        <img draggable="false" src="./assets/images/educat/college.jpg" alt="College">
+      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
       </div>
       <div class="content">
-        <h3>Higher Secondary Certificate</h3>
-        <p>Major General Mahmudul Hasan College, Tangail</p>
-        <h4>Jan 2021 - Jun 2023 | GPA 4.50/5.00</h4>
+          <h3>SSC | Science</h3>
+          <p>Mukul Niketan High School, Mymensingh</p>
+          <h4>GPA 5.00/5.00 | 2017 - 2021</h4>
       </div>
     </div>
 
-    <div class="box">
-      <div class="image">
-        <img draggable="false" src="./assets/images/educat/school.jpg" alt="School">
-      </div>
-      <div class="content">
-        <h3>Secondary School Certificate</h3>
-        <p>Mukul Niketan High School, Mymensingh</p>
-        <h4>Completed | GPA 5.00/5.00</h4>
-      </div>
-    </div>
-
-  </div>
+</div>
 </section>
 <!-- education section ends -->
 
+
 <!-- work project section starts -->
 <section class="work" id="work">
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Professional <span>Work</span></h2>
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
 
   <div class="box-container">
 
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/work/polynomial.jpg" alt="Polynomial Labs" />
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
       <div class="content">
         <div class="tag">
-          <h3>Polynomial Labs</h3>
+        <h3>Portfolio Website</h3>
         </div>
         <div class="desc">
-          <p>Hardware Engineer — lead programming and system integration for automation and prototyping systems. Managed 3D printers and improved uptime and reliability.</p>
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
           <div class="btns">
-            <a href="#experience" class="btn"><i class="fas fa-eye"></i> More</a>
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/imranpushon" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/work/3dprintingbd.jpg" alt="3D Printing BD" />
-      <div class="content">
-        <div class="tag">
-          <h3>3D Printing BD</h3>
-        </div>
-        <div class="desc">
-          <p>3D Printing Operations Engineer — calibration, repair and optimisation of multi-printer setups achieving under 1% print failure rate.</p>
-          <div class="btns">
-            <a href="#experience" class="btn"><i class="fas fa-eye"></i> More</a>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
 
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/work/fauna.jpg" alt="FAUNA InfoTech" />
-      <div class="content">
-        <div class="tag">
-          <h3>FAUNA InfoTech</h3>
-        </div>
-        <div class="desc">
-          <p>Robotics Consultant — designed robotics projects and created a practical robotics curriculum for learners.</p>
-          <div class="btns">
-            <a href="#experience" class="btn"><i class="fas fa-eye"></i> More</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="viewall">
+  <a href="www.imranpushon.com/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
 
-  </div>
-
-  <div class="viewall">
-    <a href="/projects" class="btn"><span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
 </section>
 <!-- work project section ends -->
 
-<!-- projects section starts -->
-<section class="work" id="projects">
-  <h2 class="heading"><i class="fas fa-project-diagram"></i> Projects <span>Showcase</span></h2>
-
-  <div class="box-container">
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/wise-rover.jpg" alt="WISE Rover" />
-      <div class="content">
-        <div class="tag">
-          <h3>WISE Rover — Mechanical & 3D Design</h3>
-        </div>
-        <div class="desc">
-          <p>Designed 3D models and mechanical structures for WISE Rover projects across junior and senior teams, improving modularity and robustness.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/klipper-upgrade.jpg" alt="Klipper Upgrade" />
-      <div class="content">
-        <div class="tag">
-          <h3>Printer Modernisation — Klipper Migration</h3>
-        </div>
-        <div class="desc">
-          <p>Led migration of legacy 3D printers to Klipper-based systems, upgrading hardware and slicing pipelines for precision and automation.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Technical Notes <i class="fas fa-file-alt"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/automation.jpg" alt="Automation" />
-      <div class="content">
-        <div class="tag">
-          <h3>Automation & Prototyping Systems</h3>
-        </div>
-        <div class="desc">
-          <p>Developed automation systems for educational labs using ESP32 and Raspberry Pi, integrating sensors and remote monitoring for project-based learning.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Details <i class="fas fa-file-alt"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="viewall">
-    <a href="/projects" class="btn"><span>See Portfolio</span>
-      <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-</section>
-<!-- projects section ends -->
-
 <!-- experience section starts -->
 <section class="experience" id="experience">
+
   <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
 
   <div class="timeline">
 
     <div class="container right">
       <div class="content">
-        <div class="tag">
-          <h2>Polynomial Labs</h2>
-        </div>
-        <div class="desc">
-          <h3>Hardware Engineer</h3>
-          <p>Jan 2023 - Present</p>
-          <p>Lead programming and system integration for automation and prototyping systems; managed 3D printers and improved uptime and reliability.</p>
-        </div>
+          <div class="tag"><h2>Polynomial Labs</h2></div>
+          <div class="desc">
+            <h3>Hardware Engineer</h3>
+            <p>Jan 2023 – Present</p>
+            <p>Led system integration, automation, and maintenance for 3D printers and servers. Improved uptime and streamlined prototyping workflows.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+          <div class="tag"><h2>3D Printing BD</h2></div>
+          <div class="desc">
+            <h3>3D Printing Operations Engineer</h3>
+            <p>Oct 2024 – Present</p>
+            <p>Managed and optimised multiple 3D printers, achieving under 1% print failure rate and enhanced production efficiency.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+          <div class="tag"><h2>FAUNA InfoTech Ltd</h2></div>
+          <div class="desc">
+            <h3>Robotics Consultant</h3>
+            <p>Apr 2025 – Present</p>
+            <p>Developed robotics projects integrating hardware, software, and automation systems. Created hands-on robotics curricula.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+          <div class="tag"><h2>Dreams of Bangladesh</h2></div>
+          <div class="desc">
+            <h3>3D Designer</h3>
+            <p>Apr 2025 – Sept 2025</p>
+            <p>Designed 3D models and mechanical structures for the WISE Rover projects for both junior and senior teams.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+          <div class="tag"><h2>Foot Balance Technology BD</h2></div>
+          <div class="desc">
+            <h3>3D Consultant</h3>
+            <p>Sept 2025 – Present</p>
+            <p>Modernised 3D printing systems with Klipper-based printers. Enhanced precision, speed, and automation in industrial processes.</p>
+          </div>
       </div>
     </div>
 
     <div class="container left">
       <div class="content">
         <div class="tag">
-          <h2>3D Printing BD</h2>
+          <h2>Rapid Response Bangladesh | Animal Rescue Bangladesh</h2>
         </div>
         <div class="desc">
-          <h3>3D Printing Operations Engineer</h3>
-          <p>Oct 2024 - Present</p>
-          <p>Managed multiple 3D printers, calibration, repair and slicer optimisation to achieve high production efficiency.</p>
+            <h3>Former Co-Director</h3>
+            <p>March 2024 - April 2025</p>
         </div>
       </div>
     </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>FAUNA InfoTech Limited</h2>
-        </div>
-        <div class="desc">
-          <h3>Robotics Consultant</h3>
-          <p>Apr 2025 - Present</p>
-          <p>Designed integrated robotics projects and contributed to robotics curriculum development.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Foot Balance Technology BD</h2>
-        </div>
-        <div class="desc">
-          <h3>3D Consultant</h3>
-          <p>Sept 2025 - Present</p>
-          <p>Modernised printing systems and introduced workflow automation and Klipper-based improvements.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Dreams Of Bangladesh</h2>
-        </div>
-        <div class="desc">
-          <h3>3D Designer</h3>
-          <p>Oct 2025 - Present</p>
-          <p>Created 3D models and mechanical parts for community robotics initiatives.</p>
-        </div>
-      </div>
-    </div>
-
   </div>
 
   <div class="morebtn">
     <a href="/experience" class="btn"><span>View All</span>
       <i class="fas fa-arrow-right"></i>
-    </a>
+  </a>
   </div>
+
+</div>
+
 </section>
 <!-- experience section ends -->
 
 <!-- contact section starts -->
 <section class="contact" id="contact">
+  
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
   <div class="container">
     <div class="content">
       <div class="image-box">
-        <img draggable="false" src="./assets/images/contact1.png" alt="Contact">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-
-      <form id="contact-form">
-        <div class="form-group">
-          <div class="field">
-            <input type="text" name="name" placeholder="Name" required />
-            <i class="fas fa-user"></i>
-          </div>
-          <div class="field">
-            <input type="email" name="email" placeholder="Email" required />
-            <i class="fas fa-envelope"></i>
-          </div>
-          <div class="field">
-            <input type="text" name="phone" placeholder="Phone" />
-            <i class="fas fa-phone-alt"></i>
-          </div>
-          <div class="message">
-            <textarea placeholder="Message" name="message" required></textarea>
-            <i class="fas fa-comment-dots"></i>
-          </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
         </div>
-
-        <div class="button-area">
-          <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
         </div>
-      </form>
-    </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
   </div>
 </section>
 <!-- contact section ends -->
 
+
 <!-- footer section starts -->
 <section class="footer">
+
   <div class="box-container">
 
-    <div class="box">
-      <h3>Imran Pushon</h3>
-      <p>Thanks for visiting. If you want to collaborate on robotics, embedded systems or 3D printing, get in touch.</p>
-    </div>
-
-    <div class="box">
-      <h3>quick links</h3>
-      <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-      <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-      <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-      <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-      <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-      <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
-      <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
-    </div>
-
-    <div class="box">
-      <h3>contact info</h3>
-      <p> <i class="fas fa-phone"></i>+8801862100733</p>
-      <p> <i class="fas fa-envelope"></i>imranpushon@gmail.com</p>
-      <p> <i class="fas fa-map-marked-alt"></i>Tangail Sadar, Dhaka</p>
-      <div class="share">
-        <a href="https://www.linkedin.com/in/imranpushon" class="fab fa-linkedin" target="_blank"></a>
-        <a href="https://github.com/imranpushon" class="fab fa-github" target="_blank"></a>
-        <a href="mailto:imranpushon@gmail.com" class="fas fa-envelope" target="_blank"></a>
-        <a href="https://imranpushon.dev/cv" class="fab fa-twitter" target="_blank"></a>
-        <a href="https://t.me/imranpushon" class="fab fa-telegram-plane" target="_blank"></a>
-        <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/imranpushon"><i class="fab fa-instagram" target="_blank"></i></a>
-        <a class="dev" aria-label="Dev" href="https://dev.to/imranpushon" target="_blank"><i class="fab fa-dev" target="_blank"></i></a>
+      <div class="box">
+          <h3>Imran's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
       </div>
-    </div>
 
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+8801884541714</p>
+          <p> <i class="fas fa-envelope"></i>infiniterabbiex@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Dhaka, Bangladesh </p>
+          <div class="share">
+
+            <a href="https://www.linkedin.com/in/imranpushon" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/imranpushon" class="fab fa-github" target="_blank"></a>
+            <a href="mailto:imranpushon@gmail.com" class="fas fa-envelope" target="_blank"></a>
+            <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/imranpushon"><i class="fab fa-instagram" target="_blank"></i></a>
+          </div>
+      </div>
   </div>
 
-  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/imranpushon"> Imran Pushon</a></h1>
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/fozlerabbit"> Fozle Rabbi</a></h1>
+
 </section>
 <!-- footer section ends -->
 
+
 <!-- scroll top btn -->
 <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
 
-<!-- scripts -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- typed.js cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- particle.js links -->
 <script src="./assets/js/particles.min.js"></script>
 <script src="./assets/js/app.js"></script>
 
+<!-- vanilla tilt.js links -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- scroll reveal anim -->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>
-
-<!-- Inline initialisation for typed.js (keeps parity with your original site) -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    if (window.Typed) {
-      new Typed('.typing-text', {
-        strings: ['embedded systems', 'robotics', '3D printing', 'IoT automation'],
-        typeSpeed: 60,
-        backSpeed: 30,
-        backDelay: 1700,
-        loop: true
-      });
-    }
-
-    // Enable tilt effect on images if VanillaTilt is loaded
-    if (window.VanillaTilt) {
-      const tilts = document.querySelectorAll('.tilt');
-      VanillaTilt.init(tilts, {
-        max: 12,
-        speed: 400,
-        glare: true,
-        'max-glare': 0.15
-      });
-    }
-  });
-</script>
 
 </body>
 </html>
