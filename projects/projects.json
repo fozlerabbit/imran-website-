@@ -1,322 +1,322 @@
 [
   {
-    "name": "NotyStack Android",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "name": "Smart Home Automation System",
+    "desc": "IoT-based smart home system using ESP32, sensors, and mobile app control. Integrates Firebase for real-time device monitoring.",
     "image": "notystackandroid",
-    "category": "android",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "name": "Rover Control Platform",
+    "desc": "Custom-built control interface for the WISE Rover project. Designed 3D structures, mechanical joints, and embedded communication.",
     "image": "sppuprepandroid",
-    "category": "android",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
+    "name": "Industrial Robotic Arm",
+    "desc": "Low-cost 6-DOF robotic arm with precision motor control using Arduino Mega and custom PID algorithms for automation tasks.",
     "image": "newsboxandroid",
-    "category": "android",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "name": "Weather Monitoring Station",
+    "desc": "ESP32-based IoT weather station collecting temperature, humidity, and air pressure data with Firebase integration.",
     "image": "weatherlyandroid",
-    "category": "android",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Instagram MERN",
-    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
+    "name": "3D Printer Automation",
+    "desc": "Automated print queue management system for industrial 3D printers with Klipper integration and performance analytics.",
     "image": "instagrammern",
-    "category": "mern",
+    "category": "3dprinting",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
+    "name": "IoT Greenhouse Monitor",
+    "desc": "Smart agriculture project controlling irrigation and environment with NodeMCU, sensors, and remote dashboard interface.",
     "image": "flipkartmern",
-    "category": "mern",
+    "category": "iot",
     "links": {
-      "view": "hhttps://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
+    "name": "Rescue Robot Vehicle",
+    "desc": "Autonomous robotic vehicle using ultrasonic sensors, GPS, and real-time obstacle avoidance for disaster assistance.",
     "image": "resumegen",
-    "category": "mern",
+    "category": "robotics",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "React-Projects",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
+    "name": "IoT Device Dashboard",
+    "desc": "Full-stack web dashboard to visualise IoT data using Node.js, Express, MongoDB, and WebSocket for real-time updates.",
     "image": "reactprojects",
-    "category": "mern",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
+    "name": "Robotics Simulation Toolkit",
+    "desc": "3D robotics simulator using Fusion 360 and Python scripts for motion testing, collision detection, and path analysis.",
     "image": "flipkartphp",
-    "category": "lamp",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "JavaScript Projects Website",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "name": "IoT Cloud Platform",
+    "desc": "Developed a cloud-based IoT interface using Firebase and MQTT for device registration and live sensor control.",
     "image": "jspro",
-    "category": "basicweb",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Web UI Clones",
-    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "name": "Raspberry Pi Home Server",
+    "desc": "Compact server running on Raspberry Pi for file management, network monitoring, and IoT device communication.",
     "image": "webuiclones",
-    "category": "mern",
+    "category": "automation",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Crypto Tracker",
-    "desc": "Crypto Tracker built using ReactJS and Chakra UI. Supports dark mode. API used coingecko.",
+    "name": "3D Print Farm Manager",
+    "desc": "Web application to control multiple printers remotely. Implemented using Flask, REST API, and real-time status logs.",
     "image": "cryptotracker",
-    "category": "mern",
+    "category": "3dprinting",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Hulu Website",
-    "desc": "Hulu website built using NextJS and tailwindCSS. API used TMDB, deployed on vercel.",
+    "name": "AI Vision Bot",
+    "desc": "Jetson Nano-powered vision robot with OpenCV for face tracking and object detection. Supports autonomous navigation.",
     "image": "hulu",
-    "category": "mern",
+    "category": "ai",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
     "name": "Portfolio Website",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "desc": "Personal portfolio website showcasing IoT, robotics, and automation projects with responsive design and animations.",
     "image": "portfolio1",
-    "category": "basicweb",
+    "category": "web",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Composey Website",
-    "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
+    "name": "Smart Energy Meter",
+    "desc": "IoT-based energy tracking device using ESP8266 and Firebase to monitor real-time voltage and current data.",
     "image": "composey",
-    "category": "basicweb",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Webview App",
-    "desc": "It's an android app which uses web view component for displaying content. This app provides many different features.",
+    "name": "Robotics Learning Platform",
+    "desc": "Interactive learning module for students to learn embedded systems and robotics programming through simulations.",
     "image": "webviewapp",
-    "category": "android",
+    "category": "education",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "PHP Banking Website",
-    "desc": "Basic Banking System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
+    "name": "Automated Banking Robot",
+    "desc": "Prototype robot that simulates secure deposit and withdrawal automation using servo-based mechanisms.",
     "image": "tsfbank",
-    "category": "lamp",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Bootstrap Portfolio",
-    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
+    "name": "IoT Security Framework",
+    "desc": "Research prototype enhancing IoT network security using AES encryption between microcontrollers and cloud nodes.",
     "image": "bootstrapportfolio",
-    "category": "basicweb",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Bootstrap Template",
-    "desc": "Basic website template built using HTML and Bootstrap.",
+    "name": "3D Modelling Template Kit",
+    "desc": "Fusion 360 template set for rapid prototyping of robotics components and 3D design automation.",
     "image": "bootstraptemplate",
-    "category": "basicweb",
+    "category": "3dprinting",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Foodicious",
-    "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
+    "name": "Food Automation Robot",
+    "desc": "Programmable robotic arm for kitchen automation, integrating sensors for food handling precision.",
     "image": "foodicious",
-    "category": "basicweb",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Food Website",
-    "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
+    "name": "Smart Kiosk Interface",
+    "desc": "Touch-based kiosk system using Raspberry Pi and Python for automated ticketing and customer interaction.",
     "image": "foodwebsite",
-    "category": "basicweb",
+    "category": "automation",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "WebChat Website",
-    "desc": "It's a web based chat app made using popular javaScript library Socket IO. Allows multiple users to connect.",
+    "name": "IoT Chat Node",
+    "desc": "Lightweight IoT message relay using MQTT broker and ESP modules for multi-device communication.",
     "image": "webchat",
-    "category": "mern",
+    "category": "iot",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Basic Banking App",
-    "desc": "It's an android app which uses SQLite to store user accounts data. It provides feature to simply transact amount.",
+    "name": "Bluetooth Controlled Bot",
+    "desc": "Android-controlled robot vehicle built using Arduino UNO and Bluetooth module for wireless operation.",
     "image": "basicbank",
-    "category": "android",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "JavaScript Issue Tracker",
-    "desc": "It provides the feature to Assign Issue With The Auto Generated Id By Using ChanceJS. Uses Local Storage.",
+    "name": "Sensor Data Logger",
+    "desc": "Offline sensor logging device using SD card integration and real-time data acquisition for analysis.",
     "image": "issuetrack",
-    "category": "basicweb",
+    "category": "embedded",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "PHP PBL Portal",
-    "desc": "A simple portal in which students can submit their PBL projects and faculties can view by access admin panel.",
+    "name": "3D Print Submission Portal",
+    "desc": "Online platform for submitting and managing 3D printing projects with file preview and cost calculator.",
     "image": "phppblform",
-    "category": "lamp",
+    "category": "3dprinting",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Link List",
-    "desc": "All major profile links in a single website. It's just like clone of link tree. Personalized and Responsive.",
+    "name": "Robotics Project Hub",
+    "desc": "Central platform showcasing various robotics projects, complete with circuit diagrams and documentation.",
     "image": "linklist",
-    "category": "basicweb",
+    "category": "education",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Job Finder Dummy",
-    "desc": "It Fetch JSON Data And Allow Feature To Search Within The Content Displayed. Will be Developed By Using Live APIs.",
+    "name": "Job Tracker IoT Edition",
+    "desc": "IoT-integrated workflow dashboard tracking automation system performance with sensor-based alerts.",
     "image": "saas",
-    "category": "basicweb",
+    "category": "automation",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Old Websites",
-    "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
+    "name": "Legacy Robotics Projects",
+    "desc": "Collection of early robotics prototypes and embedded systems experiments during initial research phase.",
     "image": "oldsites",
-    "category": "basicweb",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Resistor Color Codes",
-    "desc": "Simply provides the color codes of resistors. Calculation information and about resistors.",
+    "name": "Resistor Color Code Tool",
+    "desc": "Web-based tool to calculate resistor values from colour bands. Includes tolerance and power rating calculator.",
     "image": "resistercolor",
-    "category": "basicweb",
+    "category": "education",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "KIA Info Website",
-    "desc": "Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.",
+    "name": "Smart Vehicle Info System",
+    "desc": "Dashboard display and diagnostics system for electric vehicles using ESP32 and CAN bus communication.",
     "image": "kiaweb",
-    "category": "basicweb",
+    "category": "automation",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
+    "name": "Smart Food Ordering Bot",
+    "desc": "Autonomous food delivery bot using ultrasonic sensors and motor driver control programmed with Arduino.",
     "image": "burgerweb",
-    "category": "basicweb",
+    "category": "robotics",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   },
   {
-    "name": "Bd Masjids",
-    "desc": "It shows Masjids of different sectors of BD. as user clicks it will redirect to wiki of that Masjid for info.",
+    "name": "Masjid Information Map",
+    "desc": "Interactive web map displaying Bangladesh’s mosques with links to Wikipedia for historical details.",
     "image": "templeweb",
-    "category": "basicweb",
+    "category": "web",
     "links": {
-      "view": "https://www.linkedin.com/in/fozlerabbit",
-      "code": "https://github.com/fozlerabbit"
+      "view": "https://www.linkedin.com/in/imranpushon",
+      "code": "https://github.com/imranpushon"
     }
   }
 ]
